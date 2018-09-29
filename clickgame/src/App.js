@@ -3,7 +3,9 @@ import GameCard from "./components/GameCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import players from "./players.json";
+import Header from "./components/Header";
 import "./App.css";
+
 
 class App extends Component {
  
@@ -21,7 +23,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>NBA Players List</Title>
+        <Header />
+        <Title></Title>
+       
         {this.state.players.map(player => (
           <GameCard
             removePlayer={this.removePlayer}
@@ -34,8 +38,11 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      
     );
+    
   }
+  
 }
 
 export default App;

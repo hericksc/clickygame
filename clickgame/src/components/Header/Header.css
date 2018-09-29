@@ -1,0 +1,20 @@
+.jumbotron {
+    background-color: lightblue;
+}
+h1 {
+    color: darkblue;
+    font-size: 40px;
+    Text-align: Center;
+    text-decoration: underline;
+
+}
+p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: darkred;
+    text-align: Center;
+}
